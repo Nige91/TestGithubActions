@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
   // convert input to double
   const double inputValue = std::stod(argv[1]);
 
-  // calculate square root
+  // calculate sqrt
 #ifdef USE_MYMATH
   const double outputValue = mysqrt(inputValue);
 #else
